@@ -14,7 +14,7 @@ public class VNPayConfig {
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
 
     // call request get status
-    public static String vnp_ReturnUrl = "http://localhost:8080/payment/paymentResult";
+    public static String vnp_ReturnUrl = "https://pbl6.netlify.app/payment/paymentResult";
     public static String vnp_TmnCode = "ZP5F7WML";
     public static String vnp_Version = "2.1.0";
     public static String vnp_Command = "pay";
