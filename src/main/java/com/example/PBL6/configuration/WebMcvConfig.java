@@ -9,7 +9,7 @@ public class WebMcvConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Replace with your specific endpoint
-                .allowedOrigins("http://localhost:3000") // Replace with the origin of your frontend application
+                .allowedOrigins("https://pbl6.netlify.app") // Replace with the origin of your frontend application
                 .allowedMethods("GET", "POST", "PUT", "DELETE") // Allow specific HTTP methods, adjust as needed
                 .allowCredentials(true); // Allow credentials like cookies, if required
     }
